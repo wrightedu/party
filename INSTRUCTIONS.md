@@ -1,6 +1,10 @@
 ## Key Signing party instructions
 
 These instructions will walk you through a standard key signing party.
+Before you begin make sure you have GPG installed [from the GPG download page](https://gnupg.org/download/)
+
+If you want to get an even further head start, download the Windows 
+Subsystem for Linux (WSL) and MobaXTerm as documented in [our PC setup guide](https://github.com/wrightedu/remote-learning/blob/main/pc-setup/README.md)
 
 ### Make your key
 
