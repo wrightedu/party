@@ -105,11 +105,6 @@ met in person.
 
 ---
 
-# What to do with your public key
-
-
----
-
 # Signed sealed delivered
 
 Lets sign a message!
