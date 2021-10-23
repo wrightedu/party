@@ -51,7 +51,6 @@ do the following:
 
 ## Getting started
 
-[GPG Downloads page](https://gnupg.org/download/)
 
 `gpg --full-generate-key`
 
@@ -60,6 +59,11 @@ do the following:
 * Use all the bits (4096)!
 * Feel free to set an expiration of 1 (day) to 0 (no expiration)
 * Use a password that you will not forget!
+* If you would like upload said key to a key server:
+
+```
+     gpg --export <your_email_address@example.net> | curl -T - https://keys.openpgp.org
+```
 
 ---
 
@@ -147,5 +151,11 @@ You can also backup your private key and any public keys with:
 * `gpg --armor --export-secret-key your.email@wright.edu`
 * `gpg --armor --export your.email@wright.edu`
 * `gpg --armor --export friends@wright.edu`
+
+---
+
+## Useful links:
+
+[GPG Downloads page](https://gnupg.org/download/)
 
 
